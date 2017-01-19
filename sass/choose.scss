@@ -1,0 +1,187 @@
+.popup-window{
+  z-index: 999;
+  display: none;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  .container{
+    width: 100%;
+    height: 80%;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    .merchandise{
+      margin : 0 auto;
+      width: 23.5rem;
+
+      height: 7rem;
+      border-bottom: 1px solid #eee;
+      img{
+        float: left;
+        margin: -1rem 0.5rem 0 0rem;
+        width: 7rem;
+        height: 7rem;
+        border-radius: 5px;
+      }
+      .goods{
+        float: left;
+        width: 15rem;
+        height: 6rem;
+        .introduce{ 
+          margin-top: 0.5rem;
+          width: 100%;
+          height: 2rem;
+          line-height: 14px;
+          overflow: hidden;
+          font-size: 13px;
+        
+        }
+      }
+      .price{
+        font-size: 18px;
+        color: #ff3366;
+        margin: 0.5rem 0;
+      }
+      p{
+        font-size: 10px;
+        color: #999;
+      }
+    }
+  }
+  .kindn{
+    margin : 0 auto;
+    width: 23.5rem;
+    height: 13rem;
+    p{
+      margin-top: 1rem; 
+      color: #666;
+    }
+    li{
+      display: inline-block;
+      padding: .04rem 0.9rem;
+      margin: .5rem;
+      font-size: 12px;
+      text-align: center;
+      line-height: 1.5rem;
+      border: 1px solid #999;
+    }
+
+  }
+  .kind{
+    margin : 0 auto;
+    width: 23.5rem;
+    height: 4rem;
+    margin-top: 1rem; 
+    .count{
+      color: #666;
+    }
+    .adds{
+      margin-top: 1.5rem;
+      float: right;
+      width: 7rem;
+      height: 2rem;
+      border: 1px solid #999; 
+      .subtract{
+        width: 2rem;
+        height: 2rem;
+        display: block;
+        float: left;
+        span{
+          display: block;
+          margin: 0.95rem auto;
+          width: 1rem;
+          height: 0.1rem; 
+          background-image: url(./imgs/pop.png);
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+        }
+      }
+      input{
+        float: left;
+        outline:none;
+        text-align: center;
+        width: 2.8rem;
+        height: 2rem;
+        border-style: none;
+        border-left: 1px solid #999;
+        border-right: 1px solid #999; 
+      }
+      .add{
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        float: left;
+        span{
+          display: block;
+          margin: 0.5rem auto;
+          width: 1rem;
+          height: 1rem; 
+          background-image: url(./imgs/add.png);
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+        }
+      }
+
+    }
+  }
+  .button{
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    button{
+      border-style: none;
+      width: 50%;
+      height: 100%;
+      text-align: center;
+      line-height: 4rem;
+      color: white;
+      font-size: 16px;
+    }
+    .add-shopping-cart{
+      border: none;
+      background: #7c7c7c;
+    }
+   
+    .buy-now{
+      border: none;
+      background: #9acd56;
+    }
+  } 
+  .succeed{
+    display: none;
+    width: 10rem;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    border-radius: 0.5rem;
+    margin-left: -4.5rem;
+    height: 6rem;
+    background: rgba(0,0,0,.5);
+    span{
+      display: block;
+      width: 2rem;
+      height: 2rem;
+      margin: 1rem auto;
+      background-image: url(./imgs/Check-mark-button.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+    p{
+      text-align: center;
+      color: white;
+    }
+  }
+  .show{
+    display: block;
+  }
+}
+.show{
+  display: block;
+}
